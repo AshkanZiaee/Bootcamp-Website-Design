@@ -5,6 +5,10 @@
   font: inherit;
   font-family: "Montserrat", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   margin: 0;
@@ -145,7 +149,8 @@ body {
   animation: rotate-in 1s linear 1 backwards, bounce 2s linear infinite forwards;
 }
 
-.arrow-div:hover img {
+.send {
+  scroll-behavior: initial;
 }
 
 @keyframes rotate-in {
